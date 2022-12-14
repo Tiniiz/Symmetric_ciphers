@@ -10,7 +10,7 @@ def client_receive(B, a, p):
 sock = socket.socket()
 
 sock.connect(('localhost', 9090))
-print("Установка соединения с сервером")
+print("Соединение с сервером")
 
 print("Введите число g: ")
 g = int(input())

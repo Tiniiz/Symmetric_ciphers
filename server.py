@@ -39,7 +39,7 @@ while True:
     print("Конец отправки данных...")
     conn.close()
     print("Клиент отключился")
-    print("Введите <<exit>> для выхода")
+    print("Введите <<exit>> чтобы выйти")
     work_case = input()
     if work_case == "exit":
         break
