@@ -1,4 +1,4 @@
-import cezar
+import cesar
 import diffie_hellman
 
 def test_cezar_encrypt_decrypt():
